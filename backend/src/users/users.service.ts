@@ -40,8 +40,6 @@ export class UsersService {
 
             await this.usersRepository.save(user);
 
-            console.log(user)
-
             this.logger.log(`Se crea usuario con el id ${user.id}`);
 
             await this.mailerService.sendMail({
