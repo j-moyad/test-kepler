@@ -50,10 +50,10 @@ export default {
     name: 'Registration',
     data() {
         return {
-            name: 'Juan Perez',
-            email: 'test@mail.com',
-            password: '0123456789+aA',
-            password2: '0123456789+aA',
+            name: '',
+            email: '',
+            password: '',
+            password2: '',
             isSigningUp: false,
             errors: {
                 name: '',
